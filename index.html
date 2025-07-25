@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="auther" content="smallmaree">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rosun Court Mini-Estate</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/leboambition/iconrosun/c371c85f59fe36b567b7b0de61a7d7ee327fcb92/rosun.png" type="image/x-icon"> 
+  <!-- ✅ Internal CSS starts here -->
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80') no-repeat center center fixed;
+      background-size: cover;
+      position: relative; /* important for overlay */
+      color: #333;
+    }
+    body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(255, 255, 255, 0.9); /* adjust opacity as needed */
+  z-index: -1;
+}
+
+    .site-header {
+      background-color: #0c2340;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .site-header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+
+    .site-header p {
+      font-size: 1.1rem;
+      font-style: italic;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #1c3b65;
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #0c2340;
+      margin-bottom: 10px;
+    }
+
+    #features ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    #gallery figure {
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    #gallery img {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    #gallery figcaption {
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    #contact ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #contact ul li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background-color: #0c2340;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 40px;
+    }
+
+    a[href="#top"] {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #0c2340;
+    }
+
+    a[href="#top"]:hover {
+      text-decoration: underline;
+    }
+
+    .centered-content {
+      max-width: 900px;
+      margin: auto;
+      padding: 0 20px;
+      background-color: white;
+    }
+
+    @media (max-width: 600px) {
+      .site-header h1 {
+        font-size: 1.8rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      main {
+        padding: 20px 10px;
+      }
+    }
+  </style>
+  <!-- ✅ Internal CSS ends here -->
+</head>
+<body id="top">
+
+  <!-- Header Section -->
+  <header class="site-header">
+    <h1>Welcome to Rosun Court</h1>
+    <p>Quality living in a peaceful mini-estate.</p>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="vision">
+    <div class="centered-content">
+      <h2>Our Vision</h2>
+      <p>
+        At Rosun Court, we believe that comfort and community go hand in hand. 
+        Our goal is to provide more than just a place to live. We offer a peaceful, 
+        secure, and welcoming environment where families, individuals, and professionals can truly feel at home.
+      </p>
+    </div>
+  </section>
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Rosun Court</h2>
+      <p>
+        Rosun Court is a serene mini-estate located in the heart of Awoyaya, Lagos. Known for its 
+        high-quality housing and peaceful environment, the estate is ideal for families, young professionals, 
+        and retirees seeking a quiet yet connected lifestyle.
+      </p>
+      <p>
+        With a focus on modern design and essential amenities, Rosun Court offers a living experience that blends 
+        comfort, security, and convenience. Whether you're looking for your first home, a family upgrade, 
+        or a smart investment, you'll find Rosun Court to be a perfect fit.
+      </p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <h2>Estate Features</h2>
+      <ul>
+        <li>Modern, well-built homes</li>
+        <li>24/7 Security</li>
+        <li>Clean environment</li>
+        <li>Steady electricity and water supply</li>
+        <li>Good road network within the estate</li>
+      </ul>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <figure>
+        <img src="https://raw.githubusercontent.com/leboambition/ROSUNCOURT-/36d904fc47551d6cffb946fc5de494112024a867/mini1.jpg" alt="Front view of a modern house in Rosun Court" width="300" height="200">
+        <figcaption>Front view of a modern unit in Rosun Court</figcaption>
+      </figure>
+      <br>
+      <figure>
+        <img src="https://raw.githubusercontent.com/leboambition/ROSUNCOURT-/36d904fc47551d6cffb946fc5de494112024a867/miniflat.png" alt="sideview single unit in rosuncourt" width="300" height="200">
+        <figcaption>Side view of a single unit in Rosun Court</figcaption>
+      </figure>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        Ready to schedule a visit or learn more about available homes? We'd love to hear from you.
+        Reach out to us today and discover why Rosun Court is the right choice for you!
+      </p>
+      <ul>
+        <li>Email: <a href="mailto:marialebo06@gmail.com">marialebo06@gmail.com</a></li>
+        <li>Phone: +234-810-605-6044</li>
+        <li>Location: Rosun Court Estate, Plot 13b Unity Estate, Awoyaya Ajah, Lagos</li>
+      </ul>
+    </section>
+
+    <!-- Back to Top Link -->
+    <p><a href="#top">Back to top</a></p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Rosun Court. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
